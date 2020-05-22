@@ -1,4 +1,5 @@
-import exec from 'cordova/exec';
+//import exec from 'cordova/exec';
+var exec = cordova.exec;
 
 const WEBSERVER_CLASS = 'Webserver';
 const START_FUNCTION = 'start';
